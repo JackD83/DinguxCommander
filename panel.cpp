@@ -5,8 +5,8 @@
 #include "sdlutils.h"
 #include "fileutils.h"
 
-#define PANEL_SIZE         158
-#define NAME_SIZE          140
+#define PANEL_SIZE         238
+#define NAME_SIZE          210
 
 CPanel::CPanel(const std::string &p_path, const Sint16 p_x):
     m_currentPath(""),

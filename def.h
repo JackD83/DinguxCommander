@@ -4,18 +4,18 @@
 //~ #define INHIBIT(X) X
 #define INHIBIT(X) /* X */
 
-#define SCREEN_WIDTH          320
-#define SCREEN_HEIGHT         240
+#define SCREEN_WIDTH          480
+#define SCREEN_HEIGHT         272
 #define SCREEN_BPP            16
 #define SURFACE_FLAGS         SDL_SWSURFACE
 #define MS_PER_FRAME          33
 // Panel
 #define LINE_HEIGHT           15
-#define NB_VISIBLE_LINES      14
-#define Y_LIST                17
+#define NB_VISIBLE_LINES      16
+#define Y_LIST                19
 #define Y_HEADER              3
-#define Y_FOOTER              228
-#define H_FOOTER              13
+#define Y_FOOTER              260
+#define H_FOOTER              16
 // Dialogs
 #define DIALOG_BORDER         2
 #define DIALOG_MARGIN         8

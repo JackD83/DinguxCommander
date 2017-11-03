@@ -10,7 +10,7 @@
 #include "keyboard.h"
 
 #define X_LEFT                1
-#define X_RIGHT               162
+#define X_RIGHT               242
 
 CCommander::CCommander(const std::string &p_pathL, const std::string &p_pathR):
     CWindow::CWindow(),

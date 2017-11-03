@@ -1,9 +1,9 @@
-CHAINPREFIX=/opt/mipsel-linux-uclibc/usr
-CC=mipsel-linux-g++
-STRIP=mipsel-linux-strip
+CHAINPREFIX=/dingux
+CC=mipsel-linux-uclibc-g++
+STRIP=mipsel-linux-uclibc-strip
 CFLAGS=-I$(CHAINPREFIX)/include `$(CHAINPREFIX)/bin/sdl-config --cflags` -O3 -msoft-float -fomit-frame-pointer -ffast-math -funroll-loops -Wall -Wno-unknown-pragmas -Wno-format -DPLATFORM_DINGOO
 LFLAGS=-L$(CHAINPREFIX)/lib `$(CHAINPREFIX)/bin/sdl-config --libs` -Wall -lSDL -lSDL_image -lSDL_ttf
-TARGET=../build/DinguxCommander.dge
+TARGET=DinguxCommander.dge
 OBJS=main.o sdlutils.o resourceManager.o fileLister.o commander.o panel.o dialog.o window.o fileutils.o viewer.o keyboard.o
 
 all: $(TARGET)
